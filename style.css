@@ -1,0 +1,16 @@
+/* I have found the answer for the responsive images:
+https://stackoverflow.com/questions/12609110/responsive-css-background-images
+*/
+
+body {
+    background-color: #212121;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url("images/gia_long.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
